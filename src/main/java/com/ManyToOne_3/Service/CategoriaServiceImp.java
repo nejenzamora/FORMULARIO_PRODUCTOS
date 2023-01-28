@@ -11,8 +11,6 @@ import java.util.List;
 public class CategoriaServiceImp implements CategoriaService{
 
     @Autowired
-    private Categoria categoria;
-    @Autowired
     private CategoriaDao categoriaDao;
 
     @Override
